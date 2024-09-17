@@ -34,8 +34,8 @@ lista2d = [
         '--',
         '30/07/20--'
     ]
-    ]
+]
 
 #print(lista{0})
 
-print(lista2[1][2])
+print(lista2d[2][3])
