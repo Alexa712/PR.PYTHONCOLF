@@ -13,6 +13,29 @@ print(tupla[0]) #solo permite parametros de lectura
 lista = ['David', 'Billy', 'Adriana', 'Daniel']
 lista2 = ['Milton', 'Jose']
 lista.extend(lista2)
+lista.pop()
 
-print (lista)
+lista2d = [
+    [
+        'David',
+        'Martinez',
+        '30',
+        '30/07/2024'
+    ],
+    [
+        'Adriana',
+        'Romero',
+        '--',
+        '30/07/20--'
+    ],
+    [
+        'Billy',
+        'Lozano',
+        '--',
+        '30/07/20--'
+    ]
+    ]
 
+#print(lista{0})
+
+print(lista2[1][2])
