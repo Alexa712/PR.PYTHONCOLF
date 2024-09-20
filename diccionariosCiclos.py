@@ -37,4 +37,6 @@ lista =[
 
 for i in lista:
     print(i['nombre'])
+    for j in i['telefono']:
+        print (j)
 
