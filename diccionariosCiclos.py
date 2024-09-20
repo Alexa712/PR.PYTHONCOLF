@@ -40,3 +40,4 @@ for i in lista:
     for j in i['telefono']:
         print (j)
 
+ 
