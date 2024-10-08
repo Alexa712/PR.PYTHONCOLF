@@ -13,15 +13,11 @@ class Estudiante:
         self.nombre = nombre
         self.nota = nota
 
-    def informacion (self):
-        print(f'Nombre: {self.nombre}')
-        print(f'Nota: {self.nota}')
-
     def calificar (self):
         if 3 <= self.nota <= 5:
-            return f'{self.nombre} Ha aprobado.'
+            return f'{self.nombre} Has aprobado con {self.nota}'
         elif 0  <= self.nota < 3:
-            return f'{self.nombre} No ha aprobado.'
+            return f'{self.nombre} No has aprobado con {self.nota}'
         else:
             return 'Ingrese una nota valida'
 
@@ -29,7 +25,6 @@ nombre = input ('Ingresa tu nombre: ')
 nota = float(input('Ingresa tu nota (0 a 5): '))
 
 estudiante = Estudiante(nombre,nota)
-estudiante.informacion()
 print(estudiante.calificar())
 
 
